@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="app_title">News</string>
+    <string name="menu_refresh">Refresh News</string>
+
+    <string name="no_author">Author Unknown</string>
+    <string name="pub_date_na">PubDate Unavailable</string>
+
+    <!-- Error message when there is no internet connectivity-->
+    <string name="no_internet_connection">No internet connection. Please switch on WiFi or Mobile data or disable Airplane Mode and click on Refresh News.</string>
+
+    <!-- Text to display in the list when there are no news articles-->
+    <string name="no_news">No news articles found. Please click on refresh or try again later.</string>
+
+    <!--Networking error messages-->
+    <string name="error_http_request">Problem making the HTTP request.</string>
+    <string name="error_making_url">Error with creating URL.</string>
+    <string name="error_code">Error response code: %1$d</string>
+    <string name="error_json_results">Problem retrieving the news JSON results.</string>
+    <string name="error_json_parse">Problem parsing the news JSON results.</string>
+    <string name="error_json_thumbnail">Problem obtaining thumbnail from url.</string>
+    <string name="error_parse_date">Error parsing the publication date.</string>
+
+    <!--Keys for JSON parsing-->
+    <string name="json_object_response">response</string>
+    <string name="json_object_fields">fields</string>
+    <string name="json_array_results">results</string>
+    <string name="json_array_tags">tags</string>
+    <string name="json_prim_title">webTitle</string>
+    <string name="json_prim_section">sectionName</string>
+    <string name="json_prim_date">webPublicationDate</string>
+    <string name="json_prim_webUrl">webUrl</string>
+    <string name="json_prim_thumbnail">thumbnail</string>
+    <string name="json_prim_contributors">webTitle</string>
+
+    <!--Date formats-->
+    <string name="available_date_format">yyyy-MM-dd\'T\'HH:mm:ss\'Z\'</string>
+    <string name="new_date_format">yyyy-MM-dd | HH:mm</string>
+</resources>
